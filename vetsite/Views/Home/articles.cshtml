@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "~/Views/Home/_Layout.cshtml";
+    @model IEnumerable<HtmlString>
+}
+<article class="articles">
+
+    @if (Model.Count() > 1)
+    {<text><h2>Articles</h2><br /></text>}
+    @foreach (var itm in Model)
+    {
+        <text>@itm</text>
+    }
+@if (Model.Count() > 1 && ViewBag.NextPT != null)
+{
+    if (Request.QueryString["nextpt"] != null && ViewBag.PrevPT != null)
+    {
+    <a href="/articles?prevpt=@ViewBag.PrevPT&since=@ViewBag.PrevSince">Previous</a>
+    }
+    <a href="/articles?nextpt=@ViewBag.NextPT&until=@ViewBag.NextUntil">Next</a>
+}
+</article>

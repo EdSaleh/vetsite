@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "post";
+    Layout = "~/Views/Home/_Layout.cshtml";
+    @model IEnumerable<HtmlString>
+}
+@if (Model != null && Model.Count() > 0) {
+    foreach (var itm in Model)
+    {
+    <text>@itm</text>
+    }
+}
+else {<text> Error </text> }
