@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vetsite", "vetsite\vetsite.csproj", "{DBF4045B-B8CA-4ABC-87D5-B8BFEFDEE73C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF4045B-B8CA-4ABC-87D5-B8BFEFDEE73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF4045B-B8CA-4ABC-87D5-B8BFEFDEE73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF4045B-B8CA-4ABC-87D5-B8BFEFDEE73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF4045B-B8CA-4ABC-87D5-B8BFEFDEE73C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
